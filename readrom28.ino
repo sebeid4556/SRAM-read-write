@@ -93,8 +93,8 @@ void loop()
   UINT16 ADDR_START = 0x0000; //read from here
   UINT16 ADDR_END = 0x2000; //to here
 
-  /*snprintf(str, sizeof(str), "Dumping from $04X-$04X", ADDR_START, ADDR_END);
-  Serial.println(str);*/
+  snprintf(str, sizeof(str), "Dumping from $%04X-$%04X", ADDR_START, ADDR_END);
+  Serial.println(str);
 
   for(UINT16 addr = ADDR_START;addr < ADDR_END;addr++)
   {
