@@ -1,5 +1,5 @@
 # SRAM-read-write
-Circuitry & code to perform read/write operations on SRAM chip<br/>
+Circuitry & code to perform read/write operations on SRAM chip using Arduino UNO R3<br/>
 
 Chip Used: 8k x 8bit 6264 SRAM chip salvaged from FAMICOM game cartridge (labeled with masking tape that reads "SRAM")<br/>
 
